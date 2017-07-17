@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic');
 /* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/bebasneue */
-@import "http://fonts.fontstorage.com/import/bebasneue.css";
+/*@import "http://fonts.fontstorage.com/import/bebasneue.css";*/
 /*
 	Bebas Neue, 100, 200, 300, 400, 700
 */
+@font-face {
+  font-family: 'Bebas Neue';
+   src: local('Bebas Neue Bold'),
+     local('BebasNeueBold'), 
+     url('../fonts/bebasneue/bebasneuebold.woff2') format('woff2'), 
+     url('../fonts/bebasneue/bebasneuebold.woff') format('woff'),
+      url('../fonts/bebasneue/bebasneuebold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 @font-face {
   font-family: 'social';
   src:  url('../fonts/social.eot?s4u6nn');
@@ -14,6 +24,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'social' !important;

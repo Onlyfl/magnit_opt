@@ -1,8 +1,92 @@
+.main_slider {
+	position: relative;
+	z-index: 2;
+}
+.slider_decor_left {
+	height: 77px;
+	background-color: #3c4cf7;
+	width: 40%;
+	display: inline-block;
+	position: absolute;
+	top: 160px;
+	left: 0;
+}
+.slider_decor_right {
+	height: 77px;
+	background-color: #75797f;
+	width: 40%;
+	display: inline-block;
+	position: absolute;
+	bottom: 58px;
+	right: 0;
+}
+.slider_left_text_decor {
+	height: 120px;
+	background-color: #3c4cf7;
+	width: 77px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 212px;
+}
+
 .main_slider_block {
 	background-color: #e2e2e3;
 	height: 450px;
 }
+.slider_search {
+	text-align: center;
+		position: absolute;
+	top: 50px;
+	z-index: 3;
+	width: 100%;
 
+	form {
+		width: 73%;
+		background-color: #fff;
+		display: inline-block;
+		padding: 10px;
+		text-align: left;
+		input[type="text"] {
+			height: 45px;
+			width: 83%;
+			background-color: #f6f6f6;
+			border: none;
+			color: #000;
+			display: inline-block;
+			&::placeholder {color: #000;}
+			&::-webkit-input-placeholder { color: #000;}
+			&::-moz-placeholder {  color: #000;}
+			&::-ms-input-placeholder { color: #000;}
+
+		}
+
+	}
+}
+
+.slider_search_btn {
+	display: inline-block;
+	padding-left: 20px;
+	i {
+		font-size: 22px;
+		position: relative;
+		bottom: -5px;
+		color: #000;
+	
+	}
+	button {
+			display: inline-block;
+			background-color: #fff;
+			border: none;
+			color: #000;
+			text-transform: uppercase;
+			font-weight: bold;
+			height: 45px;
+			padding: 0 20px 0 10px;
+			font-family: "Roboto";
+
+		}
+}
 .slides_main {
 	position: relative;
 	padding: 0;
@@ -71,11 +155,9 @@ li.slick-active {
 	h5 {
 		margin: 0;
 		font-family: "Bebas Neue";
-		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 94px;
 		color: #61656c;
-		word-wrap: normal;
 		line-height: 1em;
 		display: inline-block;
 		em {
@@ -118,4 +200,42 @@ li.slick-active {
 	vertical-align: bottom;
 	float: right;
 	margin-top: 25px;
+}
+.main_slider_right_text {
+	position: absolute;
+	background-color: #f6f6f6;
+	width: 200px;
+	line-height: 1.3em;
+	z-index: 4;
+	color: #151c26;
+	top: 130px;
+	right: -15px;
+	padding-left: 20px;
+	transform: rotate(-90deg);
+	p {
+		margin: 0;
+	}
+}
+.main_slider_left_text {
+	color: #fff;
+	height: 95px;
+	width: 450px;
+	position: absolute;
+	top: 177px;
+	left: -163px;
+	transform: rotate(-90deg);
+	z-index: 5;
+	background:  url(../images/logo_slider_bg.png) 0 0 no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	span {
+		display: inline-block;
+		font-size: 13px;
+		letter-spacing: 3px;
+		position: relative;
+		z-index: 6;
+	}
 }
