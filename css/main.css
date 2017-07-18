@@ -583,7 +583,7 @@ a:hover {
   width: 40%;
   display: inline-block;
   position: absolute;
-  top: 160px;
+  top: 148px;
   left: 0;
 }
 .slider_decor_right {
@@ -606,7 +606,7 @@ a:hover {
 }
 .main_slider_block {
   background-color: #e2e2e3;
-  height: 450px;
+  height: 436px;
 }
 .slider_search {
   text-align: center;
@@ -752,7 +752,7 @@ li.slick-active button {
 }
 .slide_img_holder {
   background-color: #f6f6f6;
-  height: 450px;
+  height: 436px;
 }
 .slide_img_holder img {
   margin-left: -80px;
@@ -801,10 +801,10 @@ li.slick-active button {
 .main_slider_left_text {
   color: #fff;
   height: 95px;
-  width: 450px;
+  width: 436px;
   position: absolute;
-  top: 177px;
-  left: -163px;
+  top: 172px;
+  left: -156px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -835,9 +835,12 @@ li.slick-active button {
   position: relative;
   z-index: 6;
 }
+.wrapper_bg {
+  background: #fff url(../images/bg_main.jpg) top center no-repeat;
+}
 .header {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 .drop_menu .dropdown-toggle {
   width: 170px;
@@ -1090,6 +1093,7 @@ li.slick-active button {
   margin: 0;
   padding: 0;
   font-size: 0;
+  background-color: #fff;
 }
 .main_menu_list li:nth-child(4n+1):nth-last-child(-n+4),
 .main_menu_list li:nth-child(4n+1):nth-last-child(-n+4) ~ li {

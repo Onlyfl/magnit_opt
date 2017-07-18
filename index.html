@@ -15,7 +15,7 @@
     <![endif]-->
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper wrapper_bg">
 		<header class="header">
 			<div class="container">
 				<div class="row">
@@ -431,7 +431,25 @@
 			</div>	
 		</footer>
 	</div>	
-		
+	<div class="wrapper_filter" id="form2">
+		<div class="closfon"></div>
+			<div class="form_message">
+				<div class="modal-content">
+					<form method="POST" role="form">
+						<legend>Написать нам</legend>
+						<div class="form-group">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваше имя *">
+							<input type="text" class="single_item_modal_input"  placeholder="Ваш телефон *">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваш Email *">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваш город *">
+							<textarea name="message" class="single_item_modal_input" placeholder="Ваше сooбщение *"></textarea>
+								<span class="form_message__note">Поля отмеченные * обязательны для заполнения</span>
+						</div>
+					<button type="submit" class="single_item_modal_button">Отправить</button>
+		 		</form>
+			</div>
+		</div>
+	</div>
 	 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	    <script src="js/bootstrap.min.js"></script>
    <script src="js/slick.min.js"></script>
