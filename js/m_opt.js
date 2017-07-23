@@ -16,6 +16,27 @@
         $('#form2').fadeIn('slow');
 
     });
+	$(document).on('click',".single-item-count .plus",function(e) {
+        var $input, $this, val;
+        $this = $(this);
+        $input = $this.parent().children('input[name="quantity"]');
+        val = parseInt($input.val());
+        val++;
+        return $input.val(val);
+    });
+
+     $(document).on('click',".single-item-count .minus",function(e) {
+        var $input, $this, val;
+        $this = $(this);
+        $input = $this.parent().children('input[name="quantity"]');
+        val = parseInt($input.val());
+        val--;
+        if (val < 1) {
+            val = 1;
+        }
+        return $input.val(val);
+    });
+	
 	
 
 
