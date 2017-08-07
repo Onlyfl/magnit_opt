@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Корзина</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="drop_menu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<em class="navbar_toogle">
+											<span class="ico_bar"></span>
+											<span class="ico_bar"></span>
+											<span class="ico_bar"></span>
+									</em>
+								<span>Каталог</span>
+								</a>
+							 <ul class="dropdown-menu" role="menu">
+								  <li><a href="#">Круглые магниты</a></li>
+								  <li><a href="#">Прямоугольные магниты</a></li>
+								  <li><a href="#">Кольцевые магниты</a></li>
+								  <li><a href="#">Магниты с зенковой</a></li>
+								  <li><a href="#">Поисковые магниты</a></li>
+								  <li><a href="#">Магнитные крепления </a></li>
+								  <li><a href="#">Магнитные съемники</a></li>
+								  <li><a href="#">Магниты для бейджей</a></li>
+								</ul>
+						</div>
+					</div>
+						<div class="col-md-2">
+							<div class="cart-ico-wrap">
+                 <i class="icon-CPy9uyLcW1"></i>
+                 <span class="count-prod">5 800</span>
+                 <span class="count-current">руб.</span>
+                </div>
+						</div>	
+						<div class="col-md-3">
+							<a class="logo_top" href="">
+								<img src="images/logo_top.png" alt="">
+							</a>
+						</div>
+						<div class="col-md-3">
+							<div class="top_contacts">
+								<span class="top_contacts_phone">
+									<i  class="icon-NKfwNrGiPg"></i>
+									<span class="top_contacts_phone_block">
+										+7 (945) <strong>765-65-32</strong>
+									</span>
+								</span>
+								<span class="top_contacts_email">
+									<i>E-mail:</i>
+									<span>magnitopt@gmail.com</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-2 top_subscribe_block">
+							<div class="top_subscribe">
+								
+							<span> <i>?</i> Задать вопрос</span>
+							</div>
+						</div>
+				</div>	
+			</div>	
+		</header>
+		<main class="main">
+		<div class="breadcrumbs">
+			<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+							<ol class="breadcrumb">
+								<li>
+									<a href="#">Главная</a>
+								</li>
+								<li class="active">Корзина</li>
+							</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_basket_header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<div class="main_basket_header_block">
+						<i class="icon-CPy9uyLcW1"></i>
+						<h1>Корзина</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main_basket_table">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<div class="main_basket_table_header">
+							<table>
+								<tr>
+									<th class="main_table_name">Наименование</th>
+									<th class="main_table_price">Цена</th>
+									<th class="main_table_optprice">Оптовая цена</th>
+									<th class="main_table_quantity">Колличество</th>
+									<th class="main_table_sum">Сумма</th>
+									<th class="main_table_delete">Удалить</th>
+								</tr>
+							</table>
+						</div>
+						<div class="main_basket_table_block">
+							<table>
+								<tr>
+									<td class="main_table_name"><a href="">Магнит 70х50 мм </a></td>
+									<td class="main_table_price"><strong>500</strong> руб.</td>
+									<td class="main_table_optprice"><strong>450</strong> руб.</td>
+									<td class="main_table_quantity">
+										<div class="single-item-count">
+											<input name="quantity" class="field" type="text" value="0">
+											<input name="+" type="button" class="plus" value="+">
+											<input name="-" type="button" class="minus" value="−">
+										</div>
+										</td>
+									<td class="main_table_sum"><strong>0</strong> руб.</td>
+									<td class="main_table_delete"><input name="delete" type="button" class="delete"></td>
+								</tr>
+								<tr class="separeted"><td></td></tr>
+								<tr>
+									<td class="main_table_name"><a href="">Магнит 70х50 мм </a></td>
+									<td class="main_table_price"><strong>500</strong> руб.</td>
+									<td class="main_table_optprice"><strong>450</strong> руб.</td>
+									<td class="main_table_quantity">
+										<div class="single-item-count">
+											<input name="quantity" class="field" type="text" value="5">
+											<input name="+" type="button" class="plus" value="+">
+											<input name="-" type="button" class="minus" value="−">
+										</div>
+										</td>
+									<td class="main_table_sum"><strong>100 500</strong> руб.</td>
+									<td class="main_table_delete"><input name="delete" type="button" class="delete"></td>
+								</tr>
+										<tr class="separeted"><td></td></tr>
+									<tr>
+									<td class="main_table_name"><a href="">Магнит 70х50 мм </a></td>
+									<td class="main_table_price"><strong>500</strong> руб.</td>
+									<td class="main_table_optprice"><strong>450</strong> руб.</td>
+									<td class="main_table_quantity">
+										<div class="single-item-count">
+											<input name="quantity" class="field" type="text" value="7">
+											<input name="+" type="button" class="plus" value="+">
+											<input name="-" type="button" class="minus" value="−">
+										</div>
+										</td>
+									<td class="main_table_sum"><strong>100 500</strong> руб.</td>
+									<td class="main_table_delete"><input name="delete" type="button" class="delete"></td>
+								</tr>
+									<tr class="separeted"><td></td></tr>
+									<tr>
+									<td class="main_table_name"><a href="">Магнит 70х50 мм </a></td>
+									<td class="main_table_price"><strong>500</strong> руб.</td>
+									<td class="main_table_optprice"><strong>450</strong> руб.</td>
+									<td class="main_table_quantity">
+										<div class="single-item-count">
+											<input name="quantity" class="field" type="text" value="0">
+											<input name="+" type="button" class="plus" value="+">
+											<input name="-" type="button" class="minus" value="−">
+										</div>
+										</td>
+									<td class="main_table_sum"><strong>500</strong> руб.</td>
+									<td class="main_table_delete">
+										<input name="delete" type="button" class="delete">
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="main_basket_table_control clearfix">
+							<div class="basket_button basket_back">
+								<span> Задать вопрос</span>
+							</div>
+							<div class="basket_button basket_recount">
+								<span>Пересчитать</span>
+							</div>
+							<div class="basket_button basket_checkout">
+								<span>Оформить заказ</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main_basket_form">
+			<div class="main_basket_form_header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>
+								Введите ваши данные для заказа
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_basket_form_group">
+			<form method="POST" role="form">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 ">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ф.И.О.">
+							<input type="text" class="single_item_modal_input"  placeholder="Телефон:">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Email:">
+						</div>
+						<div class="col-md-6">
+						<select class="basket_region">
+					    <option value="" disabled selected>Область:</option>
+					    <option value="kaluga">Калужская</option>
+					    <option value="moskow">Московская</option>
+					    <option value="piter">Ленинградская</option>
+						</select>
+						<select class="basket_city">
+					    <option value="" disabled selected>Город:</option>
+					    <option value="kaluga1">Калуга</option>
+					    <option value="moskow1">Москва</option>
+					    <option value="piter1">Питер</option>
+						</select>
+						<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Адрес:">
+						</div>
+						<div class="col-md-12">
+							<div class="basket_radio">
+								 <label class="radio-inline"><input type="radio" name="optradio"><i></i>Физ.лицо</label>
+									<label class="radio-inline"><input type="radio" name="optradio"><i></i>Юр. лицо ( + 18% НДС к стоимости )</label>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="basket_textarea">
+								<textarea name="message"  placeholder="Комментарии:"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+		<div class="main_basket_delivery_table">
+				<div class="main_basket_form_header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>
+								Выберите способ доставки
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main_basket_table_header">
+						<table>
+							<tr>
+								<th class="main_table_mode">Способы доставки</th>
+								<th class="main_table_description">Описание</th>
+								<th class="main_table_price_dev">Цена доставки</th>
+								<th class="main_table_cost">Стоимость товаров</th>
+								<th class="main_table_total">Итого</th>
+							</tr>
+							</table>
+						</div>
+						<div class="main_basket_form_block">
+							<table>
+								<tr class="select">
+									<td class="main_table_mode">Почта России по предоплате </td>
+										<td class="main_table_description">
+											Мы специализируемся на продаже постоянных магнитов на неодимовой основе (NdFeB). У нас можно купить неодимовый магнит уже готовый к использованию, или же сделать заказ с указанием ваших размеров. 
+										</td>
+									<td class="main_table_price_dev"><strong>500</strong> руб.</td>
+									<td class="main_table_cost"><strong>450 500</strong> руб.</td>
+								
+									<td class="main_table_total"><strong>100 500</strong> руб.</td>
+								</tr>
+								<tr class="separeted"><td></td></tr>
+								<tr class="select active">
+									<td class="main_table_mode">Новая почта</td>
+										<td class="main_table_description">
+											У нас можно купить неодимовый магнит уже готовый к использованию, или же сделать заказ с указанием ваших размеров. Выбранные товары мы доставим в любую точку Москвы и России. 
+										</td>
+									<td class="main_table_price_dev"><strong>500</strong> руб.</td>
+									<td class="main_table_cost"><strong>450 500</strong> руб.</td>
+								
+									<td class="main_table_total"><strong>100 500</strong> руб.</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_basket_payment_table">
+				<div class="main_basket_form_header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>
+								Выберите способ оплаты
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main_basket_table_header">
+						<table>
+							<tr>
+								<th class="main_table_mode">Способы доставки</th>
+								<th class="main_table_description2">Описание</th>
+							</tr>
+							</table>
+						</div>
+						<div class="main_basket_form_block">
+							<table>
+								<tr class="select">
+									<td class="main_table_mode">Предоплата на карту </td>
+										<td class="main_table_description2">
+											Мы специализируемся на продаже постоянных магнитов на неодимовой основе (NdFeB). У нас можно купить неодимовый магнит уже готовый к использованию, или же сделать заказ с указанием ваших размеров. 
+										</td>
+								</tr>
+								<tr class="separeted"><td></td></tr>
+								<tr class="active select">
+									<td class="main_table_mode">Интернет деньги</td>
+										<td class="main_table_description2">
+											У нас можно купить неодимовый магнит уже готовый к использованию, или же сделать заказ с указанием ваших размеров. Выбранные товары мы доставим в любую точку Москвы и России. 
+										</td>
+								</tr>
+								<tr class="separeted"><td></td></tr>
+								<tr class="select">
+									<td class="main_table_mode">Наличными </td>
+										<td class="main_table_description2">
+											Мы специализируемся на продаже постоянных магнитов на неодимовой основе (NdFeB). У нас можно купить неодимовый магнит уже готовый к использованию, или же сделать заказ с указанием ваших размеров. 
+										</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main_basket_button_block">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="main_basket_button_wrapp">
+								<div class="main_basket_order_button">
+									<span>Заказать</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+			<div class="main_footer_category inverse">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="main_footer_category_list">
+								<li><a href="">Круглые магниты</a></li>
+								<li><a href="">Прямоугольные магниты</a></li>
+								<li><a href="">Кольцевые магниты</a></li>
+								<li><a href="">Магниты с зенковой</a></li>
+								<li><a href="">Магнитные крепления</a></li>
+								<li><a href="">Поисковые магниты</a></li>
+								<li><a href="">Магниты для бейджей</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+				<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="drop_menu dropup">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<em class="navbar_toogle">
+											<span class="ico_bar"></span>
+											<span class="ico_bar"></span>
+											<span class="ico_bar"></span>
+									</em>
+								<span>Каталог</span>
+								</a>
+							 <ul class="dropdown-menu" role="menu">
+								  <li><a href="#">Круглые магниты</a></li>
+								  <li><a href="#">Прямоугольные магниты</a></li>
+								  <li><a href="#">Кольцевые магниты</a></li>
+								  <li><a href="#">Магниты с отверстием</a></li>
+								  <li><a href="#">Поисковые магниты</a></li>
+								  <li><a href="#">Магнитные крепления и держатели</a></li>
+								  <li><a href="#">Магнитные съемники</a></li>
+								  <li><a href="#">Магниты для бейджей</a></li>
+								</ul>
+						</div>
+					</div>
+						<div class="col-md-2">
+							<div class="cart-ico-wrap">
+                 <i class="icon-CPy9uyLcW1"></i>
+                 <span class="count-prod">5 800</span>
+                 <span class="count-current">руб.</span>
+                </div>
+						</div>	
+						<div class="col-md-3">
+							<a class="logo_top" href="">
+								<img src="images/logo_footer.png" alt="">
+							</a>
+						</div>
+						<div class="col-md-3">
+							<div class="top_contacts">
+								<span class="top_contacts_phone">
+									<i  class="icon-NKfwNrGiPg"></i>
+									<span class="top_contacts_phone_block">
+										+7 (945) <strong>765-65-32</strong>
+									</span>
+								</span>
+								<span class="top_contacts_email">
+									<i>E-mail:</i>
+									<span>magnitopt@gmail.com</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-2 top_subscribe_block">
+							<div class="top_subscribe">
+								
+							<span> <i>?</i> Задать вопрос</span>
+							</div>
+						</div>
+				</div>	
+			</div>	
+		</footer>
+	</div>	
+	<div class="wrapper_filter" id="form2">
+		<div class="closfon"></div>
+			<div class="form_message">
+					<form method="POST" role="form">
+						<legend>Написать нам</legend>
+						<div class="form-group">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваше имя *">
+							<input type="text" class="single_item_modal_input"  placeholder="Ваш телефон *">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваш Email *">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ваш город *">
+							<textarea name="message" class="single_item_modal_input" placeholder="Ваше сooбщение *"></textarea>
+								<span class="form_message__note">Поля отмеченные * обязательны для заполнения</span>
+						</div>
+					<button type="submit" class="single_item_modal_button">Отправить</button>
+		 		</form>
+		</div>
+	</div>
+	 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	      <script src="js/jquery.flexslider.js"></script>
+   <script src="js/slick.min.js"></script>
+    <script src="js/m_opt.js"></script>
+		 <script> 
+   			$(window).load(function() {
+				  $('.product_gallery').flexslider({
+				    animation: "slide",
+				    slideshow: false,
+					controlNav: "thumbnails",
+					directionNav: false
+				  });
+				});
+     </script>
+</body>
+
+</html>

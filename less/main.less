@@ -73,9 +73,12 @@
 	display: block;
 	text-align: center;
 }
+.top_subscribe_block {
+	padding: 0;
+}
 .top_subscribe {
 	background-color: #fa0147;
-	width: 190px;
+	width: 180px;
 	height: 45px;
 	color: #fff;
 	text-transform: uppercase;
@@ -443,6 +446,18 @@
 		}
 	}
 }
+.main_basket_delivery_table {
+	padding-bottom: 45px;
+
+}
+.main_basket_payment_table {
+	background-color: #f6f6f6;
+	padding-bottom: 35px;
+}
+.main_basket_table {
+	background-color: #f6f6f6;
+}
+
 .main_table_name {
 	width: 38%;
 		padding-left: 15px;
@@ -459,6 +474,82 @@
 .main_table_sum {
 	width: 16%;
 		padding-right: 15px;
+}
+
+.main_table_mode {
+		width: 24%;
+		padding-left: 15px;
+		text-align: left;
+}
+.main_table_description {
+	width: 37%;
+	text-align: left;
+	 padding: 15px 0;
+}
+.main_table_description2 {
+	width: 76%;
+	text-align: justify;
+	padding: 20px 0;
+	 padding-right: 30px;
+}
+.main_table_price_dev {
+	width: 13%;
+	text-align: center;
+}
+.main_table_cost {
+	width: 13%;
+	text-align: center;
+}
+.main_table_total {
+	width: 13%;
+	text-align: center;
+}
+.main_basket_form_block table {
+	color: #000;
+}
+.main_basket_form_block {
+	.select {
+		cursor: pointer;
+	}
+	tr {
+		background-color: #fff;
+	}
+	.separeted {
+		height: 7px;
+    background-color: transparent;
+	}
+	.active {
+		 background-color: #f6f6f6;
+    border: 1px solid #dfdfdf;
+
+	}
+}
+
+.main_basket_table_header {
+	.main_table_header;
+	
+	.main_table_name {
+		text-align: left;
+		padding-left: 30px;
+		width: 33%;
+	}
+	.main_table_price {
+	width: 14%;
+	}
+	.main_table_optprice {
+		width: 14%;
+	}
+	.main_table_quantity {
+		width: 14%;
+	}
+	.main_table_sum {
+		width: 14%;
+		padding-right: 0;
+	}
+	.main_table_delete {
+		padding-right: 25px;
+		width: 11%;
+		}
 }
 .main_table_block_header {
 	height: 90px;
@@ -527,8 +618,84 @@
 		
 	}
 }
+.main_basket_table_block {
+	.main_table_block;
+	.main_table_name {
+		text-align: left;
+		padding-left: 30px;
+		width: 33%;
+	}
+	.main_table_price {
+	width: 14%;
+	}
+	.main_table_optprice {
+		width: 14%;
+	}
+	.main_table_quantity {
+		width: 14%;
+		text-align: center;
+		.single-item-count {
+			width: 105px;
+			display: inline-block;
+		}
+	}
+	table {
+		margin: 0 0 20px;
+	.main_table_sum {
+		width: 14%;
+		padding-right: 0;
+		text-align: center;
+	}
+	}
+	.main_table_delete {
+		padding-right: 25px;
+		width: 11%;
+		.delete {
+			width: 29px;
+	    height: 29px;
+	    border: none;
+	    background: url(../images/delete.png) center center no-repeat;
+		}
+		}
+}
 div.main_table_block:last-child > table {
 	margin: 0;
+}
+.basket_button {
+	width: 195px;
+	display: inline-block;
+	background-color: #fa0147;
+	height: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 12px;
+	span {
+		position: relative;
+		display: inline-block;
+		padding-left: 5px;
+	}
+
+}
+.main_basket_table_control {
+	padding-bottom: 45px;
+	background: url(../images/border.png) bottom center repeat-x;
+}
+.basket_button.basket_back {
+		background-color: #3c4cf7;
+	}
+.basket_button.basket_recount {
+		background-color: transparent;
+		color: #3c4cf7;
+		border: 1px solid #3c4cf7;
+		margin: 0 15px;
+	}
+.basket_button.basket_checkout {
+	float: right;
 }
 .single-item-count {
 	position: relative;
@@ -575,6 +742,55 @@ div.main_table_block:last-child > table {
 }
 .main_product_header {
 	.main_category;
+}
+.main_basket_header {
+	background-color: #f6f6f6;
+
+}
+.main_basket_header_block {
+	padding: 30px 0 30px 5px;
+		h1 {
+		color: #767a7f;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 0;
+		display: inline-block;
+		padding-left: 20px;
+	}
+	i {
+		color: #767a7f;
+		font-size: 20px;
+	}
+}
+.main_basket_button_block {
+	background-color: #f6f6f6;
+	padding-bottom: 55px;
+}
+.main_basket_button_wrapp {
+	text-align: center;
+}
+.main_basket_order_button {
+	display: inline-block;
+	width: 310px;
+    background-color: #fa0147;
+    height: 57px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 18px;
+    cursor: pointer;
+	span {
+		display: inline-block;
+		height: 25px;
+		padding-right: 40px;
+		padding-top: 2px;
+		background:  url(../images/cheked.png) right center no-repeat;
+	}
 }
 .main_product {
 	background-color: #f6f6f6;

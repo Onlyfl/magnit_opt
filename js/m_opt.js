@@ -16,6 +16,22 @@
         $('#form2').fadeIn('slow');
 
     });
+	
+	$(document).on('click','.closfon', function() {
+        $('.wrapper_filter2').fadeOut('slow');
+		
+    });
+	$(document).on('click','.close_form', function() {
+        $('.wrapper_filter2').fadeOut('slow');
+		
+    });
+	
+	$(document).on('click','.single-item-oneclick', function() {
+        $('#form1').fadeIn('slow');
+
+    });
+	
+	
 	$(document).on('click',".single-item-count .plus",function(e) {
         var $input, $this, val;
         $this = $(this);

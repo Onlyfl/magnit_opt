@@ -67,7 +67,7 @@
 								</span>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-2 top_subscribe_block">
 							<div class="top_subscribe">
 								
 							<span> <i>?</i> Задать вопрос</span>
@@ -563,7 +563,7 @@
 								</span>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-2 top_subscribe_block">
 							<div class="top_subscribe">
 								
 							<span> <i>?</i> Задать вопрос</span>
@@ -589,6 +589,63 @@
 					<button type="submit" class="single_item_modal_button">Отправить</button>
 		 		</form>
 		</div>
+	</div>
+	<div class="wrapper_filter2" id="form1">
+		<div class="closfon"></div>
+		<div class="main_basket_form_group modal_big">
+			<form method="POST" role="form">
+						<div class="main_basket_form_header clearfix">
+							<h3>
+								Введите ваши данные для заказа <span class="close_form">close</span>
+							</h3>
+						</div>
+						<div class="form_half">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Ф.И.О.">
+							<input type="text" class="single_item_modal_input"  placeholder="Телефон:">
+							<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Email:">
+						</div>
+						<div class="form_half">
+						<select class="basket_region">
+					    <option value="" disabled selected>Область:</option>
+					    <option value="kaluga">Калужская</option>
+					    <option value="moskow">Московская</option>
+					    <option value="piter">Ленинградская</option>
+						</select>
+						<select class="basket_city">
+					    <option value="" disabled selected>Город:</option>
+					    <option value="kaluga1">Калуга</option>
+					    <option value="moskow1">Москва</option>
+					    <option value="piter1">Питер</option>
+						</select>
+						<input type="text" class="single_item_modal_input" maxlength="50"  placeholder="Адрес:">
+						</div>
+							<div class="basket_radio">
+								 <label class="radio-inline"><input type="radio" name="optradio"><i></i>Физ.лицо</label>
+									<label class="radio-inline"><input type="radio" name="optradio"><i></i>Юр. лицо ( + 18% НДС к стоимости )</label>
+							</div>
+							<div class="basket_textarea">
+								<select class="form_delivery">
+							    <option value="" disabled selected>Способ доставки:</option>
+							    <option value="">Почта России</option>
+							    <option value="">Перевозчиком</option>
+							    <option value="">Самовывоз</option>
+								</select>
+								<select class="form_payment">
+							    <option value="" disabled selected>Способ оплаты:</option>
+							    <option value="card">На карту</option>
+							    <option value="cash">Наличными</option>
+							    <option value="qivi">Киви кошелек</option>
+								</select>
+										<textarea name="message"  placeholder="Комментарии:"></textarea>
+							</div>
+
+							<div class="main_basket_button_block">
+									<div class="main_basket_order_button">
+										<span>Заказать</span>
+									</div>
+						</div>
+				</form>
+			</div>
 	</div>
 	 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	    <script src="js/bootstrap.min.js"></script>
