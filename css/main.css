@@ -528,6 +528,15 @@ a:hover {
   z-index: 100;
   display: none;
 }
+.wrapper_filter3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 20px;
+  z-index: 100;
+  display: block;
+}
 .closfon {
   background-color: rgba(119, 122, 129, 0.5);
   position: fixed;
@@ -542,7 +551,7 @@ a:hover {
 .form_message {
   position: relative;
   width: 50%;
-  background: #ffffff;
+  background: #fff;
   z-index: 120;
   text-align: center;
   top: 5%;
@@ -2393,4 +2402,63 @@ div.main_table_block:last-child > table {
 }
 .main_product_note_block p {
   text-align: justify;
+}
+.modal_info {
+  width: 510px;
+  position: relative;
+  background: #fff;
+  z-index: 120;
+  text-align: center;
+  top: 0;
+  padding: 60px 37px 60px;
+  margin: 0 auto;
+  display: block;
+}
+.modal_info2 {
+  width: 415px;
+  position: relative;
+  background: #fff;
+  z-index: 120;
+  text-align: center;
+  top: 0;
+  padding: 30px 37px 30px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+.modal_info_img_block {
+  height: 42px;
+  width: 42px;
+  display: inline-block;
+}
+.modal_info_text {
+  padding-top: 30px;
+}
+.modal_info_text h6 {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+.modal_info_text p {
+  font-size: 15px;
+  margin: 0;
+}
+.modal_info_text2 {
+  padding-top: 25px;
+}
+.modal_info_text2 h6 {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.modal_info_text2 p {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #24c227;
+  font-weight: 600;
+}
+.modal_info2.green {
+  background-color: #efffef;
 }
